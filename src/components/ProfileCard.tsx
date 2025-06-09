@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import Image from 'next/image';
 
+
 const ProfileCard = () => {
   return (
     <motion.div
@@ -12,8 +13,8 @@ const ProfileCard = () => {
       <div className="relative">
         <div className="absolute -inset-2 rounded-full bg-gradient-to-r from-green-400 to-cyan-500 opacity-75 blur-md animate-pulse"></div>
         <div className="relative">
-          <Image
-            src="./profile.png"
+          <img
+            src="/profile.png"
             alt="Profile"
             className="rounded-full w-24 h-24 border-2 border-green-400 object-cover"
           />
